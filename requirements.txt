@@ -1,0 +1,9 @@
+# Streamlit app + training script (versions pinned to match the saved model)
+streamlit>=1.50
+pandas>=2.2
+numpy>=2.0
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib>=1.4
+plotly>=5.20
+requests>=2.31

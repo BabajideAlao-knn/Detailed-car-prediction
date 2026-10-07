@@ -1,0 +1,7 @@
+# Extra packages for running the analysis notebook
+-r requirements.txt
+matplotlib>=3.8
+seaborn>=0.13
+lightgbm>=4.3
+catboost>=1.2
+jupyter
