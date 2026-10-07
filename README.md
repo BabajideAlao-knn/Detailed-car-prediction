@@ -5,6 +5,10 @@ It covers scraping 9,304 live listings from [Autochek Nigeria](https://autochek.
 cleaning the data, exploring it in depth, comparing **11 regression algorithms**, and serving the best model
 through an interactive **Streamlit** app.
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://babajide-car-price-prediction-v2.streamlit.app/)
+
+**🔗 Live app: [babajide-car-price-prediction-v2.streamlit.app](https://babajide-car-price-prediction-v2.streamlit.app/)**
+
 | | |
 |---|---|
 | **Data** | 9,304 listings scraped 7 Oct 2026 → 9,230 after cleaning |
@@ -53,6 +57,8 @@ jupyter notebook notebooks/Nigerian_Car_Price_Prediction_Autochek.ipynb
 
 ## The Streamlit app
 
+**Try it live: [https://babajide-car-price-prediction-v2.streamlit.app/](https://babajide-car-price-prediction-v2.streamlit.app/)**
+
 - **💰 Price estimator:** choose make, model, year, condition, mileage, body type, engine and location to get:
   - an estimated price, with a likely range covering 80% of similar listings;
   - a comparison with similar cars currently on the market;
@@ -60,7 +66,7 @@ jupyter notebook notebooks/Nigerian_Car_Price_Prediction_Autochek.ipynb
 - **📊 Market insights:** median price by make, depreciation curves, and price by condition and body type.
 - **🧠 Model performance:** the full comparison of the 11 algorithms on the test set.
 
-### Deploy for free on Streamlit Community Cloud
+### Deploy your own copy on Streamlit Community Cloud
 1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
 2. Click **Create app** and pick this repository, branch `main`, main file `app.py`.
 3. Click **Deploy**. Dependencies install from `requirements.txt`. If the saved model can't be loaded on the server's
